@@ -10,6 +10,10 @@
 .display-flex{
     display: flex;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* header section style css....................... */
 .header-section{
@@ -166,4 +170,68 @@
     top: 18px;
     left: 20px;
     font-size: 26px;
+}
+/* stories section style css */
+.stories-container{
+    background-image: url(../assets/bg.png), linear-gradient(to top, #FEA301 0%,#FFFFFF 80%);
+    margin-top: 100px;
+}
+.left-side-content{
+    width: 440px;
+    height: 630px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.left-side-content img{
+    max-width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.stories-btn{
+    border-radius: 47px;
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 254px;
+    left: 15px;
+}
+.stories-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.stories-discription{
+    color: #666666;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px;
+}
+.story-box{
+    max-width: 290px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.story-box img{
+    max-width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.stories-containt{
+    gap: 20px;
+    justify-content: center;
+}
+.right-side-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.story-btn{
+    border-radius: 47px;
+    background-color: #3CD8E8;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: -210px;
 }
