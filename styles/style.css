@@ -10,10 +10,10 @@
 .display-flex{
     display: flex;
 }
-main{
+/* main section{
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 /* header section style css....................... */
 .header-section{
@@ -175,6 +175,7 @@ main{
 .stories-container{
     background-image: url(../assets/bg.png), linear-gradient(to top, #FEA301 0%,#FFFFFF 80%);
     margin-top: 100px;
+    padding-bottom: 50px;
 }
 .left-side-content{
     width: 440px;
@@ -233,5 +234,77 @@ main{
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
-    margin-top: -210px;
+}
+.button-div {
+    margin-top: -21px;
+    margin-left: 25px;
+}
+.story-title{
+    padding: 20px 35px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+.storys-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer-section style css */
+
+.footer-section{
+    background-color: #01ACFD;
+    padding-bottom: 100px;
+}
+.main-contaient{
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.logo-section{
+    width: 300px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section img{
+    width: 100%;
+    color: white;
+}
+.logo-section h2{
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: white;
+    line-height: 39px;
+}
+.web-description{
+    width: 390px;
+    color: white;
+    font-size: 1.25rem;
+}
+.nav-section h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-section ul li{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+.nav-section ul{
+    padding-left: 0;
+}
+.logo-side h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.logo-side ul{
+    padding-left: 0px;
+}
+.logo-side li{
+    list-style: none;
+    margin-right: 10px;
+
 }
