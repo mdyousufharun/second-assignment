@@ -14,7 +14,12 @@
     max-width: 1440px;
     margin: 0 auto;
 } */
-
+.bar-sign{
+    display: none;
+}
+.hide{
+    display: none;
+}
 /* header section style css....................... */
 .header-section{
     justify-content: space-around;
@@ -171,7 +176,7 @@
     left: 20px;
     font-size: 26px;
 }
-/* stories section style css */
+/* stories section style css....................................................... */
 .stories-container{
     background-image: url(../assets/bg.png), linear-gradient(to top, #FEA301 0%,#FFFFFF 80%);
     margin-top: 100px;
@@ -249,7 +254,7 @@
     text-align: center;
     margin-top: 50px;
 }
-/* footer-section style css */
+/* footer-section style css....................................................... */
 
 .footer-section{
     background-color: #01ACFD;
@@ -306,5 +311,44 @@
 .logo-side li{
     list-style: none;
     margin-right: 10px;
-
+}
+/* responsive code css..................................................... */
+@media screen and (max-width: 576px) {
+    .curriculum-boxes,
+    .main-contaient{
+        flex-direction: column;
+    }
+    .landing-page-section{
+        flex-direction: column-reverse;
+    }
+    .navbar, .header-btn{
+        display: none;
+    }
+    .section-title{
+        font-size: 2.5rem;
+    }
+    .info-section{
+        text-align: center;
+    }
+    .main-contaient{
+        margin-left: 13px;
+    }
+    .left-side-content{
+        display: none;
+    }
+    .story-title {
+        padding: 20px 10px;
+    }
+    .story-box {
+        height: 250px;
+    }
+    .header-section {
+        justify-content: space-between;
+        border-bottom: 2px solid orange;
+        padding-bottom: 15px;
+    }
+    .bar-sign{
+        font-size: 35px;
+        display: contents;
+    }
 }
